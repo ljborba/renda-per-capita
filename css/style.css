@@ -34,7 +34,7 @@ header {
 
 .title {
   font-size: 36px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: var(--fonte-destaque)
   text-transform: uppercase;
 }
 
