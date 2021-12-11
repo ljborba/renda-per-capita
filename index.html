@@ -14,75 +14,18 @@
         <h1 class="title">Simulador de Renda</h1>
     </header>
     <div class="container">
-        <section>
-            <div class="formcontainer">
-                <h2 class="marginbottom">
-                    Você gostaria de saber qual a renda per capita da sua família? Faça
-                    a sua simulação agora!
-                </h2>
-                <form action="" method="post">
-                    <div class="fields fieldname1">
-                        <label for="fieldname1">Diga-me seu nome: <span class="r">*</span></label>
-                        <div class="dfield">
-                            <input aria-label="Diga-me seu nome:" type="text" name="fieldname1" id="fieldname1"
-                                class="field name required cpefb_error" aria-invalid="true" />
-                            <span class="uh">
-                                <div id="fieldname1-error" class="cpefb_error message">
-                                    Este campo é obrigatório.
-                                </div>
-                            </span>
-                        </div>
-                        <div class="clearer"></div>
-                    </div>
-                    <div class="fields fieldname2">
-                        <label for="fieldname2">
-                            Digite seu Cep: <span class="r">*</span>
-                        </label>
-                        <div class="dfield">
-                            <input aria-label="Digite seu Cep:" type="text" name="fieldname2" id="fieldname2"
-                                class="field cep required cpefb_error" aria-invalid="true" />
-                            <span class="uh">
-                                <div class="cpefb_error message">
-                                    Este campo é obrigatório.
-                                </div>
-                            </span>
-                        </div>
-                        <div class="clearer"></div>
-                    </div>
-                    <div class="fields fieldname3">
-                        <label for="fieldname3">
-                            Qual a sua renda mensal? <span class="r">*</span>
-                        </label>
-                        <div class="dfield">
-                            <input aria-label="Qual a sua renda mensal?" type="number" name="fieldname3" id="fieldname3"
-                                class="field revenue required cpefb_error" aria-invalid="true">
-                            <span class="uh">
-                                <div class="cpefb_error message">
-                                    Este campo é obrigatório.
-                                </div>
-                            </span>
-                        </div>
-                        <div class="clearer"></div>
-                    </div>
-                    <div class="fields fieldname4">
-                        <label for="fieldname4">
-                            Me diga a quantidade de dependentes que você tem: <span class="r">*</span>
-                        </label>
-                        <div class="dfield">
-                            <input aria-label="Me diga a quantidade de dependentes que você tem:" type="number"
-                                name="fieldname4" id="fieldname4" class="field dependents required cpefb_error"
-                                aria-invalid="true">
-                            <span class="uh">
-                                <div class="cpefb_error message">
-                                    Este campo é obrigatório.
-                                </div>
-                            </span>
-                        </div>
-                        <div class="clearer"></div>
-                    </div>
-                </form>
-            </div>
-        </section>
+        <div class="brand-title">Você gostaria de saber a renda per capita da sua família? Faça a simulação agora!</div>
+        <div class="inputs">
+            <label>Diga-me seu nome</label>
+            <input type="text" placeholder="" />
+            <label>Digita o teu cep aí</label>
+            <input type="text" placeholder="" />
+            <label>Me conta qual é a tua renda mensal</label>
+            <input type="text" placeholder="" />
+            <label>Coloca a quantidade de dependentes</label>
+            <input type="text" placeholder="" />
+            <button type="submit">Calcular</button>
+        </div>
     </div>
     <footer>
         Criado por: Lucas Janing

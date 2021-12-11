@@ -1,2 +1,109 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+body {
+  margin: 0;
+  background: #ecf0f3;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+}
+
+header {
+  background-color: #052f43;
+  padding: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 36px;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+}
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: black;
+  letter-spacing: 1px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 40px;
+}
+
+label,
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin: 8px 0px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button {
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #052f43, #176da7);
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  font-size: 18px;
+  color: #ecf0f3;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+footer {
+  background-color: #176da7;
+  padding: 3rem;
+  text-align: center;
+  color: white;
+  margin-top: 134px;
+}
