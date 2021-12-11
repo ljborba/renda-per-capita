@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simule sua Renda Per Capita</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <header>
+        <h1 class="title">Simulador de Renda</h1>
+    </header>
     <div class="container">
-        <header>
-            <h1 class="title">Simulador de Renda</h1>
-        </header>
         <section>
             <div class="formcontainer">
                 <h2 class="marginbottom">
@@ -53,7 +54,7 @@
                             Qual a sua renda mensal? <span class="r">*</span>
                         </label>
                         <div class="dfield">
-                            <input aria-label="Qual a sua renda mensal?" type="text" name="fieldname3" id="fieldname3"
+                            <input aria-label="Qual a sua renda mensal?" type="number" name="fieldname3" id="fieldname3"
                                 class="field revenue required cpefb_error" aria-invalid="true">
                             <span class="uh">
                                 <div class="cpefb_error message">
@@ -83,6 +84,9 @@
             </div>
         </section>
     </div>
+    <footer>
+        Criado por: Lucas Janing
+    </footer>
 </body>
 
 </html>
