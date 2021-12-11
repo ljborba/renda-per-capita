@@ -34,7 +34,7 @@ header {
 
 .title {
   font-size: 36px;
-  font-family: var(--fonte-destaque)
+  font-family: var(--fonte-destaque);
   text-transform: uppercase;
 }
 
