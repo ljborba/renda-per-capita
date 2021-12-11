@@ -102,8 +102,12 @@ button:hover {
 
 footer {
   background-color: #176da7;
-  padding: 3rem;
-  text-align: center;
-  color: white;
   margin-top: 134px;
+  height: 114px;
+}
+
+.creator {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  padding-top: 57px;
 }
