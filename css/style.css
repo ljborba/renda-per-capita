@@ -94,6 +94,13 @@ input {
   font-size: 14px;
   box-shadow: inset 6px 6px 6px var(--cor2), inset -6px -6px 6px white;
 }
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
 
 button {
   margin-top: 20px;
