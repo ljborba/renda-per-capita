@@ -15,7 +15,7 @@
 }
 body {
   margin: 0;
-  background: #ecf0f3;
+  background: var(--cor0);
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  background-color: #052f43;
+  background-color: var(--cor1);
   padding: 3rem;
   text-align: center;
   color: white;
@@ -46,7 +46,7 @@ header {
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
-  background: #ecf0f3;
+  background: var(--cor0);
 }
 
 .brand-title {
@@ -55,7 +55,7 @@ header {
   font-size: 1.8rem;
   color: black;
   letter-spacing: 1px;
-  font-family: "Varela Round", sans-serif;
+  font-family: var(--fonte-subtitulo);
 }
 
 .inputs {
@@ -87,25 +87,25 @@ input::placeholder {
 }
 
 input {
-  background: #ecf0f3;
+  background: var(--cor0);
   padding: 10px;
   padding-left: 20px;
   height: 50px;
   font-size: 14px;
-  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  box-shadow: inset 6px 6px 6px var(--cor2), inset -6px -6px 6px white;
 }
 
 button {
   margin-top: 20px;
-  background-image: linear-gradient(to right, #052f43, #176da7);
+  background-image: linear-gradient(to right, var(--cor1), var(--cor3));
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 900;
-  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  box-shadow: 6px 6px 6px var(--cor2), -6px -6px 6px white;
   transition: 0.5s;
   font-size: 18px;
-  color: #ecf0f3;
+  color: var(--cor0);
 }
 
 button:hover {
@@ -113,13 +113,13 @@ button:hover {
 }
 
 footer {
-  background-color: #176da7;
+  background-color: var(--cor3);
   margin-top: 148px;
   height: 100px;
 }
 
 .creator {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: var(--fonte-destaque);
   color: white;
   padding-top: 50px;
 }
