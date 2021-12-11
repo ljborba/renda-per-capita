@@ -2,7 +2,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap");
 
+:root {
+  --cor0: #ecf0f3;
+  --cor1: #052f43;
+  --cor2: #cbced1;
+  --cor3: #176da7;
+  --fonte-destaque: "Merriweather Sans", sans-serif;
+  --fonte-subtitulo: "Varela Round", sans-serif;
+  --fonte-padrao: "Athiti", sans-serif;
+}
 body {
   margin: 0;
   background: #ecf0f3;
@@ -11,6 +21,7 @@ body {
   justify-content: center;
   place-items: center;
   overflow: hidden;
+  font-family: var(--fonte-padrao);
 }
 
 header {
