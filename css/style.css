@@ -22,6 +22,7 @@ body {
   place-items: center;
   overflow: hidden;
   font-family: var(--fonte-padrao);
+  font-weight: 500;
 }
 
 header {
@@ -113,12 +114,12 @@ button:hover {
 
 footer {
   background-color: #176da7;
-  margin-top: 134px;
-  height: 114px;
+  margin-top: 148px;
+  height: 100px;
 }
 
 .creator {
   font-family: "Merriweather Sans", sans-serif;
   color: white;
-  padding-top: 57px;
+  padding-top: 50px;
 }
