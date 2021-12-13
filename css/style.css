@@ -42,7 +42,6 @@ header {
   position: relative;
   margin: auto;
   width: 600px;
-  height: 500px;
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -186,12 +185,14 @@ button:hover {
 
 footer {
   background-color: var(--cor3);
-  margin-top: 148px;
-  height: 100px;
+  height: 117px;
+  position: relative;
 }
 
 .creator {
   font-family: var(--fonte-destaque);
   color: white;
-  padding-top: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
