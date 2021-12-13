@@ -20,7 +20,6 @@ body {
   text-align: center;
   justify-content: center;
   place-items: center;
-  overflow: hidden;
   font-family: var(--fonte-padrao);
   font-weight: 500;
 }
@@ -41,11 +40,12 @@ header {
 .container {
   position: relative;
   margin: auto;
-  width: 600px;
+  width: 100vw;
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
   background: var(--cor0);
+  max-width: 600px;
 }
 
 .brand-title {
